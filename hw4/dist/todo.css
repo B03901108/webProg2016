@@ -1,0 +1,75 @@
+/* b03901108 webPro hw4 ver. 2.0 */
+#mainFrame {
+	margin:auto;
+	width:500px;
+}
+.todoLeft {
+	margin:auto;
+	width:150px;
+	height:150px;
+	border:4px double black;
+	border-radius:100%;
+	text-align:center;
+}
+.todoLeft > p {
+	font-family:serif;
+	font-weight:bold;
+	font-size:30px;
+}
+.todoCount {
+	font-size:65px;
+}
+input, .todo, .done {
+	margin-bottom:2px;
+	width:500px;
+	border-radius:10px;
+	padding-left:4px;
+	font-size:26px;
+}
+
+input {
+	margin-top:6px;
+	height:30px;
+	border:2px solid black;
+	font-family:Courier, serif;
+}
+
+.todo, .done {
+	height:40px;
+	background-color:black;
+	text-align:center;
+	font-family:cursive;
+}
+
+.todo {
+	color:#FF0066;
+}
+.todo:hover {
+	background-color:#FF0066;
+	color:black;
+}
+
+.done {
+	color:#00FFFF;
+}
+.done:hover {
+	background-color:#00FFFF;
+	color:black;
+}
+
+.kill {
+	display:none;
+}
+
+.delete {
+	float:right;
+	width:32px;
+	height:32px;
+	background-color:Transparent;
+	border:none;
+	text-align:center;
+	font-family:serif;
+	color:white;
+}
+
+/* 10/26, 2016, 06:28 */

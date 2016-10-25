@@ -1,0 +1,20 @@
+{
+  "name": "hw4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve .",
+    "clean": "rimraf dist",
+    "build": "npm run clean && babel src -d dist --copy-files",
+    "build:watch": "npm run build -- --watch"
+  },
+  "description": "",
+  "devDependencies": {
+    "babel-cli": "^6.16.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0",
+    "babel-preset-latest": "^6.16.0",
+    "babel-preset-react": "^6.16.0",
+    "rimraf": "^2.5.4",
+    "serve": "^1.4.0"
+  }
+}
